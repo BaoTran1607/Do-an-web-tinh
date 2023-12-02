@@ -1,0 +1,20 @@
+{
+    "uploads": [
+        {
+            "title": "first upload",
+            "catergory": "blogs",
+            "id": 1,
+            "author": "user_01",
+            "postDate": "1 second ago",
+            "thumbnail": "img/catbed01.webp"
+        },
+        {
+            "title": "second upload",
+            "catergory": "updates",
+            "id": 2,
+            "author": "user-02",
+            "postDate": "2 seconds ago",
+            "thumbnail": "img/birdfeeder02.webp"
+        }
+    ]
+}
