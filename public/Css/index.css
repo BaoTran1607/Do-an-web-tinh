@@ -148,8 +148,7 @@ header{
 footer{
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    bottom: 0px;
+    margin-top: 52px;
 }
 .footer-nav{
     height: 36px;
@@ -228,4 +227,131 @@ footer{
 }
 .footer-underlined{
     text-decoration: underline;
+}
+
+/* HEAD ADVERT */
+
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.head-advert-container{
+    width: 980px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* ADVERT SECTION */
+
+.advert-section{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.advert-item-small{
+    width: 300px;
+    height: 250px;
+}
+.advert-item-large{
+    width: 300px;
+    height: 600px;
+}
+.ad-sticky{
+    position: sticky;
+    top: 32px;
+}
+
+/* MAIN SECTION */
+
+.main-container{
+    display: flex;
+    gap: 10px;
+}
+
+/* FEATURED SECTION*/
+
+.featured-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.featured-card{
+    position: relative;
+}
+.featured-large{
+    width: 400px;
+    height: 262px;
+}
+.featured-medium{
+    width: 278px;
+    height: 262px;
+}
+.featured-small{
+    width: 400px;
+    height: 163px;
+}
+.featured-exsmall{
+    width: 278px;
+    height: 163px;
+}
+.featured-img{
+    width: 100%;
+}
+.featured-title{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-shadow: black 1px 1px 0px;
+}
+.first-text{
+    background-image: linear-gradient(to top, #e34c4b, rgba(0, 0, 0, 0));
+    font-size: 21px;
+}
+.second-text{
+    font-size: 18px;
+    background-image: linear-gradient(to top, #259f15, rgba(0, 0, 0, 0));
+}
+.third-text{
+    background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
+    font-size: 17px;
+}
+
+/* SECONDARY SECTION */
+
+
+
+/* LISTED SECTION */
+
+.listed-section{
+    width: 400px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.listed-card{
+    width: 192px;
+    height: 201px;
+}
+.listed-img{
+    width: 100%;
+}
+.listed-title{
+    font-size: 13px;
+    color: #000000;
+    padding-left: 2px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.listed-title:hover{
+    color: #ed4848;
 }

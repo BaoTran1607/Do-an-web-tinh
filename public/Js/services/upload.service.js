@@ -4,8 +4,3 @@ export async function getUploads(){
 
     return json;
 }
-
-export async function newUpload(upload){
-    const res = await fetch(`/uploads`);
-    
-}
