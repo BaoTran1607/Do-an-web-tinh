@@ -2,6 +2,8 @@ import { getUploads } from "./services/upload.service.js";
 
 const navigationEl = document.querySelector(".navigation");
 
+const navScroll = navigationEl.offsetTop;
+
 getUploads().then(function (uploads) {
   for (let item of uploads) {
     uploadContainerEl.innerHTML += `<div class="upload-card">
@@ -16,10 +18,9 @@ getUploads().then(function (uploads) {
 window.onscroll = function(){checkStickyNav();}
 
 function checkStickyNav(){
-  // if (window.pageYOffset >= navigationEl.offsetTop) {
-  //   navigationEl.classList.add("sticky-nav");
-  // } else {
-  //   navigationEl.classList.remove("sticky-nav");
-  // }
-  console.log("hi");
+  if (window.scrollY >= navScroll) {
+    navigationEl.classList.add("sticky-nav");
+  } else {
+    navigationEl.classList.remove("sticky-nav");
+  }
 }

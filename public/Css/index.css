@@ -111,10 +111,8 @@ header{
 .sticky-nav{
     position: fixed;
     top: 0px;
-    width: 100%;
-}
-.sticky-nav + main{
-    padding-top: 40px;
+    z-index: 2;
+    padding-right: 6px;
 }
 .navigation{
     height: 40px;
@@ -160,7 +158,7 @@ footer{
 }
 .footer-nav{
     height: 36px;
-    background-color: #504f4f;
+    background-color: black;
 }
 .footer-nav-container{
     display: flex;
@@ -433,4 +431,48 @@ main{
     height: 33px;
     text-align: center;
     padding-top: 8px;
+}
+
+/* BOTTOM SECTION */
+
+.bottom-section{
+    margin-top: 16px;
+}
+
+/* REMARK CARD*/
+
+.remark-card{
+    width: 692px;
+    height: 52px;
+    background-color: #efefef;
+    border: 1px solid #e5e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.remark-heading{
+    width: 120px;
+    height: 100%;
+    color: #db760f;
+    background-color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.remark-title{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    margin-left: 15px;
+    width: 464px;
+}
+.remark-detail{
+    background-color: #d21a32;
+    width: 51px;
+    height: 22px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 25%;
 }
