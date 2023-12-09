@@ -1,20 +1,30 @@
 {
-    "uploads": [
-        {
-            "title": "first upload",
-            "catergory": "blogs",
-            "id": 1,
-            "author": "user_01",
-            "postDate": "1 second ago",
-            "thumbnail": "img/catbed01.webp"
-        },
-        {
-            "title": "second upload",
-            "catergory": "updates",
-            "id": 2,
-            "author": "user-02",
-            "postDate": "2 seconds ago",
-            "thumbnail": "img/birdfeeder02.webp"
-        }
-    ]
+  "uploads": [
+    {
+      "title": "Không có đối thủ, Baldur's Gate 3 thắng lớn tại The Game Awards, thâu tóm mọi danh hiệu",
+      "catergory": "GAME ONLINE",
+      "id": 1,
+      "author": "Tuấn Hưng",
+      "postDate": "08/12/2023",
+      "postTime": "04:22",
+      "images": [
+        "https://gamek.mediacdn.vn/133514250583805952/2023/12/8/photo-1702026602548-17020266029421189093839.png",
+        "https://gamek.mediacdn.vn/133514250583805952/2023/12/8/photo-1702026626092-17020266261761825581340.png",
+        "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2023/12/8/screenshot16-17020267010231999721355.png"
+      ]
+    },
+    {
+      "title": "Không có đối thủ, Baldur's Gate 3 thắng lớn tại The Game Awards, thâu tóm mọi danh hiệu",
+      "catergory": "GAME ONLINE",
+      "id": 2,
+      "author": "Tuấn Hưng",
+      "postDate": "08/12/2023",
+      "postTime": "04:22",
+      "images": [
+        "https://gamek.mediacdn.vn/133514250583805952/2023/12/8/photo-1702026602548-17020266029421189093839.png",
+        "https://gamek.mediacdn.vn/133514250583805952/2023/12/8/photo-1702026626092-17020266261761825581340.png",
+        "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2023/12/8/screenshot16-17020267010231999721355.png"
+      ]
+    }
+  ]
 }

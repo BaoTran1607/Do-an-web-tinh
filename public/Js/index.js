@@ -20,7 +20,9 @@ window.onscroll = function(){checkStickyNav();}
 function checkStickyNav(){
   if (window.scrollY >= navScroll) {
     navigationEl.classList.add("sticky-nav");
+    navigationEl.classList.remove("nonstick-nav");
   } else {
     navigationEl.classList.remove("sticky-nav");
+    navigationEl.classList.add("nonstick-nav");
   }
 }

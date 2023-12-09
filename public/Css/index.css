@@ -113,10 +113,13 @@ header{
     top: 0px;
     z-index: 2;
     padding-right: 6px;
+    background-color: #ec5f5f;
+}
+.nonstick-nav{
+    background-color: #504f4f;
 }
 .navigation{
     height: 40px;
-    background-color: #504f4f;
     display: flex;
     gap: 8px;
     align-items: center;
@@ -128,7 +131,7 @@ header{
     text-align: center;
     padding-top: 4px;
     font-size: 20px;
-    background-color: #646464;
+    background-color: #00000049;
 }
 .navigation-link{
     height: 100%;
@@ -508,6 +511,10 @@ main{
 }
 .recent-img{
     width: 310px;
+    display: block;
+}
+.recent-img-link{
+    display: block;
 }
 .recent-title{
     font-size: 20px;
