@@ -30,6 +30,25 @@ input{
     margin-left: auto;
     margin-right: auto;
 }
+.block-mb{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .none-mb{
+        display: none;
+    }
+    .block-mb{
+        display: block;
+    }
+    .content{
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    main{
+        padding-top: 80px;
+    }
+}
 
 /* HEADER */
 
@@ -49,7 +68,7 @@ header{
     bottom: 0px;
 }
 .logo-img{
-    width: 175px;
+    width: 174px;
     margin-top: 7px;
 }
 .header-social{
@@ -109,6 +128,36 @@ header{
 }
 .icon-search{
     color: #b6b5b5;
+}
+@media screen and (max-width: 576px){
+    .mb-header{
+        background-color: #da5550;
+        display: flex;
+        position: fixed;
+        z-index: 3;
+        justify-content: space-between;
+        align-items: center;
+        height: 57px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mb-header-logo{
+        width: 138px;
+    }
+    .mb-header-search{
+        width: 50px;
+    }
+    .mb-header-icon{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .mb-header-title{
+        color: white;
+        font-size: 10px;
+        margin-top: 3px;
+    }
 }
 
 /* NAVIGATION */
@@ -339,6 +388,27 @@ main{
     background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0));
     font-size: 17px;
 }
+@media screen and (max-width: 576px){
+    .featured-section{
+        margin-bottom: 150px;
+    }
+    .featured-card{
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .featured-title{
+        position: absolute;
+        height: 100px;
+        top: 100%;
+        left: 0px;
+        color: black;
+        text-shadow: none;
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .first-text{
+        background-image: none;
+    }
+}
 
 /* SECONDARY SECTION */
 
@@ -484,6 +554,11 @@ main{
     text-align: center;
     margin-top: 25%;
 }
+@media screen and (max-width: 576px){
+    .remark-card{
+        display: none;
+    }
+}
 
 /* RECENT SECTION */
 
@@ -567,4 +642,7 @@ main{
     border: 1px solid #ce1328;
     width: 100%;
     height: 37px;
+}
+@media screen and (max-width: 576px){
+    
 }
